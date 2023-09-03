@@ -5,13 +5,17 @@
 //1.increase the readability of program
 //2.to perform a task in repetitive manner
 
-function hello_world()
+function add($num1,$num2)
 {
-    echo "Hello World<br>";
-    echo "Hello ,World<br>";
-    echo "<b>Hello, World<b>";
-
+    echo $num1 + $num2 .'<br>';
+    
 }
-hello_world();
-hello_world();
+
+add(899,1000);
+
+
+add(2000,1100);
+
+add(6000,1300);
+
 ?>
